@@ -1,0 +1,2 @@
+/opt/ppc-amigaos/bin/ppc-amigaos-ar qc libtest_sdl3_prototypes.do_not_use CMakeFiles/test_sdl3_prototypes.dir/test_sdl3_syms.cpp.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-ranlib libtest_sdl3_prototypes.do_not_use

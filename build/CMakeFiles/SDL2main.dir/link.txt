@@ -1,0 +1,2 @@
+/opt/ppc-amigaos/bin/ppc-amigaos-ar qc libSDL2main.a CMakeFiles/SDL2main.dir/src/SDLmain/dummy/SDL_dummy_main.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-ranlib libSDL2main.a

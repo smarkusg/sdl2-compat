@@ -1,0 +1,299 @@
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54185/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54185.dir/build.make CMakeFiles/cmTC_54185.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO'
+Building C object CMakeFiles/cmTC_54185.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DCHECK_CPU_ARCHITECTURE_X64  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_54185.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO/src.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO/src.c: In function 'main':
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO/src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO/src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+gmake[1]: *** [CMakeFiles/cmTC_54185.dir/build.make:78: CMakeFiles/cmTC_54185.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-xrE9QO'
+gmake: *** [Makefile:127: cmTC_54185/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__amd64__) || defined(__amd64) || defined(__x86_64__) || defined(__x86_64) || defined(_M_X64) || defined(_M_AMD64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10876/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10876.dir/build.make CMakeFiles/cmTC_10876.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX'
+Building C object CMakeFiles/cmTC_10876.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DCHECK_CPU_ARCHITECTURE_X86  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_10876.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX/src.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX/src.c: In function 'main':
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX/src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX/src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+gmake[1]: *** [CMakeFiles/cmTC_10876.dir/build.make:78: CMakeFiles/cmTC_10876.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-wNFiNX'
+gmake: *** [Makefile:127: cmTC_10876/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9aab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9aab.dir/build.make CMakeFiles/cmTC_a9aab.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC'
+Building C object CMakeFiles/cmTC_a9aab.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DCHECK_CPU_ARCHITECTURE_ARM64  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_a9aab.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC/src.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC/src.c: In function 'main':
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC/src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC/src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+gmake[1]: *** [CMakeFiles/cmTC_a9aab.dir/build.make:78: CMakeFiles/cmTC_a9aab.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-5gMwkC'
+gmake: *** [Makefile:127: cmTC_a9aab/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76f1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76f1b.dir/build.make CMakeFiles/cmTC_76f1b.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX'
+Building C object CMakeFiles/cmTC_76f1b.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DCHECK_CPU_ARCHITECTURE_ARM32  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_76f1b.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX/src.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX/src.c: In function 'main':
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX/src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX/src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+gmake[1]: *** [CMakeFiles/cmTC_76f1b.dir/build.make:78: CMakeFiles/cmTC_76f1b.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-cc7zHX'
+gmake: *** [Makefile:127: cmTC_76f1b/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__arm__) || defined(_M_ARM)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e0f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e0f0.dir/build.make CMakeFiles/cmTC_7e0f0.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45'
+Building C object CMakeFiles/cmTC_7e0f0.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_7e0f0.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45/src.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45/src.c: In function 'main':
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45/src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45/src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+gmake[1]: *** [CMakeFiles/cmTC_7e0f0.dir/build.make:78: CMakeFiles/cmTC_7e0f0.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-by1f45'
+gmake: *** [Makefile:127: cmTC_7e0f0/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__loongarch64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test HAVE_OPENGLES_V1 failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-Ikn5v1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a161/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a161.dir/build.make CMakeFiles/cmTC_6a161.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-Ikn5v1'
+Building C object CMakeFiles/cmTC_6a161.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DHAVE_OPENGLES_V1  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_6a161.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-Ikn5v1/src.c
+In file included from /opt/ppc-amigaos/ppc-amigaos/SDK/local/newlib/include/GLES/gl.h:6,
+                 from /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-Ikn5v1/src.c:2:
+/opt/ppc-amigaos/ppc-amigaos/SDK/local/newlib/include/GLES/glplatform.h:20:10: fatal error: KHR/khrplatform.h: No such file or directory
+   20 | #include <KHR/khrplatform.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6a161.dir/build.make:78: CMakeFiles/cmTC_6a161.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-Ikn5v1'
+gmake: *** [Makefile:127: cmTC_6a161/fast] Error 2
+
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-SWFcpQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28035/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28035.dir/build.make CMakeFiles/cmTC_28035.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-SWFcpQ'
+Building C object CMakeFiles/cmTC_28035.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DHAVE_GCC_WDOCUMENTATION  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include    -Wdocumentation -o CMakeFiles/cmTC_28035.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-SWFcpQ/src.c
+ppc-amigaos-gcc: error: unrecognized command-line option '-Wdocumentation'
+gmake[1]: *** [CMakeFiles/cmTC_28035.dir/build.make:78: CMakeFiles/cmTC_28035.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-SWFcpQ'
+gmake: *** [Makefile:127: cmTC_28035/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-ZsI1I7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0aea7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0aea7.dir/build.make CMakeFiles/cmTC_0aea7.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-ZsI1I7'
+Building C object CMakeFiles/cmTC_0aea7.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include    -Wdocumentation-unknown-command -o CMakeFiles/cmTC_0aea7.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-ZsI1I7/src.c
+ppc-amigaos-gcc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
+gmake[1]: *** [CMakeFiles/cmTC_0aea7.dir/build.make:78: CMakeFiles/cmTC_0aea7.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-ZsI1I7'
+gmake: *** [Makefile:127: cmTC_0aea7/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-BbFMXn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a337e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a337e.dir/build.make CMakeFiles/cmTC_a337e.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-BbFMXn'
+Building C object CMakeFiles/cmTC_a337e.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include    -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_a337e.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-BbFMXn/src.c
+ppc-amigaos-gcc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
+gmake[1]: *** [CMakeFiles/cmTC_a337e.dir/build.make:78: CMakeFiles/cmTC_a337e.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-BbFMXn'
+gmake: *** [Makefile:127: cmTC_a337e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-9XL04M
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7497e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7497e.dir/build.make CMakeFiles/cmTC_7497e.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-9XL04M'
+Building C object CMakeFiles/cmTC_7497e.dir/src.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include    /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_7497e.dir/src.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-9XL04M/src.c
+ppc-amigaos-gcc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
+ppc-amigaos-gcc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_7497e.dir/build.make:78: CMakeFiles/cmTC_7497e.dir/src.c.obj] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_7497e.dir/src.c.obj'
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-9XL04M'
+gmake: *** [Makefile:127: cmTC_7497e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file winapifamily.h exists failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-HeErsZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ced94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ced94.dir/build.make CMakeFiles/cmTC_ced94.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-HeErsZ'
+Building C object CMakeFiles/cmTC_ced94.dir/CheckIncludeFile.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc   -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_ced94.dir/CheckIncludeFile.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-HeErsZ/CheckIncludeFile.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-HeErsZ/CheckIncludeFile.c:1:10: fatal error: winapifamily.h: No such file or directory
+    1 | #include <winapifamily.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ced94.dir/build.make:78: CMakeFiles/cmTC_ced94.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-HeErsZ'
+gmake: *** [Makefile:127: cmTC_ced94/fast] Error 2
+
+
+
+Determining if the include file immintrin.h exists failed with the following output:
+Change Dir: /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-pTqVcZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df3d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df3d4.dir/build.make CMakeFiles/cmTC_df3d4.dir/build
+gmake[1]: Entering directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-pTqVcZ'
+Building C object CMakeFiles/cmTC_df3d4.dir/CheckIncludeFile.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-gcc   -O2 -fno-plt -pipe -ffast-math -D_ARCH_G3 -mcpu=G3 -mno-altivec  -mstrict-align -mcrt=newlib -athread=native -D__amigaos4__ -DAMIGA -D__AMIGAOS4__ -I/opt/ppc-amigaos/usr/include  -o CMakeFiles/cmTC_df3d4.dir/CheckIncludeFile.c.obj -c /work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-pTqVcZ/CheckIncludeFile.c
+/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-pTqVcZ/CheckIncludeFile.c:1:10: fatal error: immintrin.h: No such file or directory
+    1 | #include <immintrin.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_df3d4.dir/build.make:78: CMakeFiles/cmTC_df3d4.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/work/wwwwwwwwwwwww/sdl2-compat/build/CMakeFiles/CMakeScratch/TryCompile-pTqVcZ'
+gmake: *** [Makefile:127: cmTC_df3d4/fast] Error 2
+
+
+

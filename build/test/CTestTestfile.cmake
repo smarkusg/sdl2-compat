@@ -1,0 +1,32 @@
+# CMake generated Testfile for 
+# Source directory: /work/wwwwwwwwwwwww/sdl2-compat/test
+# Build directory: /work/wwwwwwwwwwwww/sdl2-compat/build/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[testatomic]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testatomic")
+set_tests_properties([=[testatomic]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;82;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testerror]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testerror")
+set_tests_properties([=[testerror]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;92;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testevdev]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testevdev")
+set_tests_properties([=[testevdev]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;93;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testfile]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testfile")
+set_tests_properties([=[testfile]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;94;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testfilesystem]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testfilesystem")
+set_tests_properties([=[testfilesystem]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;95;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testlocale]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testlocale")
+set_tests_properties([=[testlocale]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;108;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testplatform]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testplatform")
+set_tests_properties([=[testplatform]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;126;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testpower]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testpower")
+set_tests_properties([=[testpower]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;127;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testqsort]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testqsort")
+set_tests_properties([=[testqsort]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;128;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testthread]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testthread")
+set_tests_properties([=[testthread]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "40" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;142;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testtimer]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testtimer")
+set_tests_properties([=[testtimer]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "60" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;143;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testver]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testver")
+set_tests_properties([=[testver]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "10" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;145;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")
+add_test([=[testautomation]=] "/work/wwwwwwwwwwwww/sdl2-compat/build/test/testautomation")
+set_tests_properties([=[testautomation]=] PROPERTIES  ENVIRONMENT "SDL_AUDIODRIVER=dummy;SDL_VIDEODRIVER=dummy" TIMEOUT "120" WORKING_DIRECTORY "/work/wwwwwwwwwwwww/sdl2-compat/build/test" _BACKTRACE_TRIPLES "/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;45;add_test;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;167;test_program;/work/wwwwwwwwwwwww/sdl2-compat/test/CMakeLists.txt;0;")

@@ -1,0 +1,2 @@
+/opt/ppc-amigaos/bin/ppc-amigaos-ar qc libSDL2.a CMakeFiles/SDL2.dir/src/sdl2_compat.c.obj CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj
+/opt/ppc-amigaos/bin/ppc-amigaos-ranlib libSDL2.a

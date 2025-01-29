@@ -1,0 +1,15 @@
+set(CMAKE_HOST_SYSTEM "Linux-5.17.3")
+set(CMAKE_HOST_SYSTEM_NAME "Linux")
+set(CMAKE_HOST_SYSTEM_VERSION "5.17.3")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+
+include("/work/wwwwwwwwwwwww/sdl2-compat/cmake/ppc-amigaos.cmake")
+
+set(CMAKE_SYSTEM "AmigaOS")
+set(CMAKE_SYSTEM_NAME "AmigaOS")
+set(CMAKE_SYSTEM_VERSION "")
+set(CMAKE_SYSTEM_PROCESSOR "ppc")
+
+set(CMAKE_CROSSCOMPILING "TRUE")
+
+set(CMAKE_SYSTEM_LOADED 1)
