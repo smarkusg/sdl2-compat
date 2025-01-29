@@ -1,3 +1,12 @@
+# AmigaOS4 test  built with
+
+https://github.com/AmigaPorts/SDL/releases/tag/v3.2.0-rc2-amigaos4 
+
+https://github.com/libsdl-org/sdl2-compat/releases/tag/release-2.30.50
+
+![](https://github.com/smarkusg/sdl2-compat/blob/master/test/Screenshot.png)
+
+
 # Simple DirectMedia Layer (SDL) sdl2-compat
 
 https://www.libsdl.org/
